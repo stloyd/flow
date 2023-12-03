@@ -111,3 +111,12 @@ jobs:
           files: |
             build/flow.phar
             build/flow.phar.asc
+
+      - name: "Update Homebrew formula"
+        uses: dawidd6/action-homebrew-bump-formula@v3
+        with:
+          token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+          tap: stloyd/flow-php
+          formula: flow-php
+          tag: ${{ github.event.release.tag_name }}
+          revision: ${{ github.event.release.target_commitish }}
