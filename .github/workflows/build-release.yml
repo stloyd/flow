@@ -112,11 +112,18 @@ jobs:
             build/flow.phar
 #            build/flow.phar.asc
 
+      - name: "Get version"
+        id: get_version
+        run: |
+          echo "version=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
+
       - name: "Update Homebrew formula"
-        uses: dawidd6/action-homebrew-bump-formula@v3
+        uses: mislav/bump-homebrew-formula-action@v3
         with:
-          token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
-          tap: stloyd/flow-php
-          formula: Random/Formula/flow-php
-          tag: ${{ github.event.release.tag_name }}
-          revision: ${{ github.event.release.target_commitish }}
+          formula-name: flow-php
+          formula-path: src/tools/homebrew/Formula/flow-php.rb
+          homebrew-tap: flow-php/flow
+          base-branch: feature/homebrew
+          download-url: https://github.com/flow-php/flow/releases/download/${{ steps.get_version.outputs.version }}/flow.phar
+        env:
+          COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
