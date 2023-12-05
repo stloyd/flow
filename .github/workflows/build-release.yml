@@ -124,6 +124,6 @@ jobs:
           formula-path: src/tools/homebrew/Formula/flow-php.rb
           homebrew-tap: stloyd/flow
           base-branch: feature/homebrew
-          download-url: https://github.com/flow-php/flow/releases/download/${{ steps.get_version.outputs.version }}/flow.phar
+          download-url: https://github.com/stloyd/flow/releases/download/${{ steps.get_version.outputs.version }}/flow.phar
         env:
           COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
