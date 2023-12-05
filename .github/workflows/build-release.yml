@@ -98,12 +98,6 @@ jobs:
 #          cache-from: type=gha
 #          cache-to: type=gha,mode=max
 
-      - name: "Prepare artifact name"
-        run: |
-          BUILD_TAG=${{ github.ref_name }}
-          BUILD_TAG=${BUILD_TAG//[-._]/}
-          echo "BUILD_TAG=$BUILD_TAG" >> $GITHUB_ENV
-
       - name: "Upload binaries to release"
         uses: softprops/action-gh-release@v1
         if: ${{startsWith(github.ref, 'refs/tags/') }}
@@ -112,10 +106,10 @@ jobs:
             build/flow.phar
 #            build/flow.phar.asc
 
-      - name: "Get version"
-        id: get_version
+      - name: "Get release tag"
         run: |
-          echo "version=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_OUTPUT
+          RELEASE_TAG=${GITHUB_REF/refs\/tags\//}
+          echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
 
       - name: "Update Homebrew formula"
         uses: mislav/bump-homebrew-formula-action@v3
@@ -124,6 +118,6 @@ jobs:
           formula-path: src/tools/homebrew/Formula/flow-php.rb
           homebrew-tap: stloyd/flow
           base-branch: feature/homebrew
-          download-url: https://github.com/stloyd/flow/releases/download/${{ steps.get_version.outputs.version }}/flow.phar
+          download-url: https://github.com/flow-php/flow/releases/download/${{ env.RELEASE_TAG }}/flow.phar
         env:
           COMMITTER_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
