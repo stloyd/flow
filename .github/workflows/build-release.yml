@@ -122,7 +122,7 @@ jobs:
         with:
           formula-name: flow-php
           formula-path: src/tools/homebrew/Formula/flow-php.rb
-          homebrew-tap: flow-php/flow
+          homebrew-tap: stloyd/flow
           base-branch: feature/homebrew
           download-url: https://github.com/flow-php/flow/releases/download/${{ steps.get_version.outputs.version }}/flow.phar
         env:
