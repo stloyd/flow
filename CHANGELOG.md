@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-10-25
+## [Unreleased] - 2024-10-29
 
 ### Added
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **composer script for building thrift definitions** - [@norberttech](https://github.com/norberttech)
