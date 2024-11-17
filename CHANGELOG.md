@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-10-29
+## [Unreleased] - 2024-11-17
 
 ### Added
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **composer script for building thrift definitions** - [@norberttech](https://github.com/norberttech)
@@ -9,6 +9,8 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1256](https://github.com/flow-php/flow/pull/1256) - **Upgrade PHPStan to 2.0** - [@stloyd](https://github.com/stloyd)
+- [#1256](https://github.com/flow-php/flow/pull/1256) - **Adjust codebase to cover newly detected issues** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **Updated parquet thrift definitions** - [@norberttech](https://github.com/norberttech)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **ParquetLoader will now make inferred schema nullable** - [@norberttech](https://github.com/norberttech)
 - [#1247](https://github.com/flow-php/flow/pull/1247) - **CLI command options now comes with a --output / --input prefix** - [@norberttech](https://github.com/norberttech)
@@ -19,6 +21,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1256](https://github.com/flow-php/flow/pull/1256) - **Fixed main branch static analyse issues** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **Setting repetition level based on flow schema definition in parquet converter** - [@norberttech](https://github.com/norberttech)
 - [#1248](https://github.com/flow-php/flow/pull/1248) - **Unified behavior of first/last aggregations to prevent columns conflicts when doing aggregation and grouping by the same column** - [@norberttech](https://github.com/norberttech)
 - [#1245](https://github.com/flow-php/flow/pull/1245) - **Fixed writing column statistics when there is only one row that is null** - [@norberttech](https://github.com/norberttech)
