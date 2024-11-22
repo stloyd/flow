@@ -1,6 +1,7 @@
-## [Unreleased] - 2024-11-17
+## [Unreleased] - 2024-11-22
 
 ### Added
+- [#1257](https://github.com/flow-php/flow/pull/1257) - **Add testing against PHP 8.4** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **composer script for building thrift definitions** - [@norberttech](https://github.com/norberttech)
 - [#1247](https://github.com/flow-php/flow/pull/1247) - **command to convert files through cli** - [@norberttech](https://github.com/norberttech)
 - [#1246](https://github.com/flow-php/flow/pull/1246) - **file:read - cli command** - [@norberttech](https://github.com/norberttech)
@@ -21,6 +22,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1257](https://github.com/flow-php/flow/pull/1257) - **Fixed deprecation from PHP 8.4** - [@stloyd](https://github.com/stloyd)
 - [#1256](https://github.com/flow-php/flow/pull/1256) - **Fixed main branch static analyse issues** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **Setting repetition level based on flow schema definition in parquet converter** - [@norberttech](https://github.com/norberttech)
 - [#1248](https://github.com/flow-php/flow/pull/1248) - **Unified behavior of first/last aggregations to prevent columns conflicts when doing aggregation and grouping by the same column** - [@norberttech](https://github.com/norberttech)
