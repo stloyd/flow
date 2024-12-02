@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-11-22
+## [Unreleased] - 2024-12-02
 
 ### Added
 - [#1257](https://github.com/flow-php/flow/pull/1257) - **Add testing against PHP 8.4** - [@stloyd](https://github.com/stloyd)
