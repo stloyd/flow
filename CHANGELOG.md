@@ -25,6 +25,8 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional list required element - list empty** - [@norberttech](https://github.com/norberttech)
+- [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional map required value - map empty** - [@norberttech](https://github.com/norberttech)
 - [#1257](https://github.com/flow-php/flow/pull/1257) - **Fixed deprecation from PHP 8.4** - [@stloyd](https://github.com/stloyd)
 - [#1256](https://github.com/flow-php/flow/pull/1256) - **Fixed main branch static analyse issues** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **Setting repetition level based on flow schema definition in parquet converter** - [@norberttech](https://github.com/norberttech)
