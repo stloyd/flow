@@ -10,6 +10,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [81964e](https://github.com/flow-php/flow/commit/81964edf1f620e025e15f6adec3c2042f33f18dd) - **Build cli command using latest available dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1262](https://github.com/flow-php/flow/pull/1262) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1261](https://github.com/flow-php/flow/pull/1261) - **Reimplemented from scratch Dremel Shredding/Assemble algorithms to cover all edge cases and fix bugs** - [@norberttech](https://github.com/norberttech)
 - [#1256](https://github.com/flow-php/flow/pull/1256) - **Upgrade PHPStan to 2.0** - [@stloyd](https://github.com/stloyd)
