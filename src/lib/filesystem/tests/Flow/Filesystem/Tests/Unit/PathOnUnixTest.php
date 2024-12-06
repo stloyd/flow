@@ -7,9 +7,11 @@ namespace Flow\Filesystem\Tests\Unit;
 use function Flow\Filesystem\DSL\{partition, partitions, path, path_real};
 use Flow\Filesystem\Partitions;
 use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\RequiresOperatingSystemFamily;
 use PHPUnit\Framework\TestCase;
 
-final class PathTest extends TestCase
+#[RequiresOperatingSystemFamily('Linux')]
+final class PathOnUnixTest extends TestCase
 {
     public static function directories() : \Generator
     {
