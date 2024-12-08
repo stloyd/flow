@@ -8,9 +8,9 @@ require __DIR__ . '/../../../autoload.php';
 
 data_frame()
     ->read(from_array([
-        ['id' => 1, 'name' => 'Norbert', 'joined_id' => 1, 'joined_Status' => 'active'],
-        ['id' => 2, 'name' => 'John', 'joined_id' => 2, 'joined_Status' => 'inactive'],
-        ['id' => 3, 'name' => 'Jane', 'joined_id' => 3, 'joined_Status' => 'active'],
+        ['id' => 1, 'name' => 'Norbert', 'joined_id' => 1, 'joined_status' => 'active'],
+        ['id' => 2, 'name' => 'John', 'joined_id' => 2, 'joined_status' => 'inactive'],
+        ['id' => 3, 'name' => 'Jane', 'joined_id' => 3, 'joined_status' => 'active'],
     ]))
     ->rename('id', 'user_id')
     ->renameAll('joined_', '')

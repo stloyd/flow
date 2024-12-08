@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Flow\ETL\Adapter\Parquet\Tests\Unit;
 
-use function Flow\ETL\DSL\{bool_schema, datetime_schema, float_schema, int_schema, json_schema, list_schema, map_schema, object_schema, str_schema, struct_element, struct_schema, type_boolean, type_int, type_list, type_map, type_object, type_string, type_structure, type_uuid, uuid_schema};
+use function Flow\ETL\DSL\{bool_schema, datetime_schema, float_schema, int_schema, json_schema, list_schema, map_schema, str_schema, struct_element, struct_schema, type_boolean, type_int, type_list, type_map, type_string, type_structure, type_uuid, uuid_schema};
 use Flow\ETL\Adapter\Parquet\SchemaConverter;
 use Flow\Parquet\ParquetFile\Schema;
 use Flow\Parquet\ParquetFile\Schema\{MapKey, MapValue};
@@ -41,7 +41,7 @@ final class ParquetToFlowSchemaTest extends TestCase
                 float_schema('decimal', true),
                 bool_schema('boolean', true),
                 datetime_schema('date', true),
-                object_schema('time', type_object(\DateInterval::class, true)),
+                int_schema('time', true),
                 datetime_schema('datetime', true),
                 uuid_schema('uuid', true),
                 json_schema('json', true),

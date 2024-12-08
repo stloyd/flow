@@ -11,14 +11,12 @@ use function Flow\ETL\DSL\{bool_schema,
     json_schema,
     list_schema,
     map_schema,
-    object_schema,
     str_schema,
     struct_schema,
     struct_type,
     structure_element,
     type_list,
     type_map,
-    type_object,
     uuid_schema};
 use Flow\ETL\Exception\RuntimeException;
 use Flow\ETL\PHP\Type\Logical\Map\{MapKey, MapValue};
@@ -298,7 +296,7 @@ final class SchemaConverter
         return match ($logicalType->name()) {
             ParquetSchema\LogicalType::STRING => str_schema($column->name(), $nullable),
             ParquetSchema\LogicalType::DATE => datetime_schema($column->name(), $nullable),
-            ParquetSchema\LogicalType::TIME => object_schema($column->name(), type_object(\DateInterval::class, $nullable)),
+            ParquetSchema\LogicalType::TIME => int_schema($column->name(), $nullable),
             ParquetSchema\LogicalType::TIMESTAMP => datetime_schema($column->name(), $nullable),
             ParquetSchema\LogicalType::UUID => uuid_schema($column->name(), $nullable),
             ParquetSchema\LogicalType::JSON => json_schema($column->name(), $nullable),
