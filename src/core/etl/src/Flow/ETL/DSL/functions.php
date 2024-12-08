@@ -1303,6 +1303,18 @@ function datetime_schema(string $name, bool $nullable = false, ?Schema\Metadata 
 }
 
 #[DocumentationDSL(module: Module::CORE, type: DSLType::SCHEMA)]
+function time_schema(string $name, bool $nullable = false, ?Schema\Metadata $metadata = null) : Definition
+{
+    return Definition::time($name, $nullable, $metadata);
+}
+
+#[DocumentationDSL(module: Module::CORE, type: DSLType::SCHEMA)]
+function date_schema(string $name, bool $nullable = false, ?Schema\Metadata $metadata = null) : Definition
+{
+    return Definition::date($name, $nullable, $metadata);
+}
+
+#[DocumentationDSL(module: Module::CORE, type: DSLType::SCHEMA)]
 function json_schema(string $name, bool $nullable = false, ?Schema\Metadata $metadata = null) : Definition
 {
     return Definition::json($name, $nullable, $metadata);
