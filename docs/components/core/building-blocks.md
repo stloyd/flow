@@ -46,6 +46,8 @@ $rows = array_to_rows([
 ## Entry Types
 
 - [Boolean](../../../src/core/etl/src/Flow/ETL/Row/Entry/BooleanEntry.php)
+- [Time](../../../src/core/etl/src/Flow/ETL/Row/Entry/TimeEntry.php)
+- [Date](../../../src/core/etl/src/Flow/ETL/Row/Entry/DateEntry.php)
 - [DateTime](../../../src/core/etl/src/Flow/ETL/Row/Entry/DateTimeEntry.php)
 - [Enum](../../../src/core/etl/src/Flow/ETL/Row/Entry/EnumEntry.php)
 - [Float](../../../src/core/etl/src/Flow/ETL/Row/Entry/FloatEntry.php)
