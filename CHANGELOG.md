@@ -27,6 +27,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1269](https://github.com/flow-php/flow/pull/1269) - **pivot edge case when pivot column is null** - [@norberttech](https://github.com/norberttech)
 - [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional list required element - list empty** - [@norberttech](https://github.com/norberttech)
 - [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional map required value - map empty** - [@norberttech](https://github.com/norberttech)
 - [#1257](https://github.com/flow-php/flow/pull/1257) - **Fixed deprecation from PHP 8.4** - [@stloyd](https://github.com/stloyd)
