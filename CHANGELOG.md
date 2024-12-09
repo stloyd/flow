@@ -1,6 +1,7 @@
-## [Unreleased] - 2024-12-05
+## [Unreleased] - 2024-12-09
 
 ### Added
+- [#1267](https://github.com/flow-php/flow/pull/1267) - **Entry::withValue(mixed $value) : self** - [@norberttech](https://github.com/norberttech)
 - [#1257](https://github.com/flow-php/flow/pull/1257) - **Add testing against PHP 8.4** - [@stloyd](https://github.com/stloyd)
 - [#1251](https://github.com/flow-php/flow/pull/1251) - **composer script for building thrift definitions** - [@norberttech](https://github.com/norberttech)
 - [#1247](https://github.com/flow-php/flow/pull/1247) - **command to convert files through cli** - [@norberttech](https://github.com/norberttech)
