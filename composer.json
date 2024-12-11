@@ -205,6 +205,7 @@
         "build": [
             "@test:docs",
             "@test:monorepo",
+            "@test:examples",
             "@static:analyze",
             "@test",
             "@test:benchmark",
@@ -221,6 +222,12 @@
             "@test:benchmark:extractor",
             "@test:benchmark:loader",
             "@test:benchmark:transformer"
+        ],
+        "test:website": [
+            "composer test --working-dir=./web/landing"
+        ],
+        "test:examples": [
+            "./examples/run.php"
         ],
         "test:benchmark:building_blocks": [
             "tools/phpbench/vendor/bin/phpbench run --report=flow-report --group=building_blocks"
