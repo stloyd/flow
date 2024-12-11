@@ -140,11 +140,6 @@ final class JsonEntry implements Entry
         return \json_encode($this->value, JSON_THROW_ON_ERROR);
     }
 
-    public function withValue(mixed $value) : Entry
-    {
-        return new self($this->name, $value);
-    }
-
     public function type() : Type
     {
         return $this->type;
@@ -156,5 +151,10 @@ final class JsonEntry implements Entry
     public function value() : ?array
     {
         return $this->value;
+    }
+
+    public function withValue(mixed $value) : Entry
+    {
+        return new self($this->name, $value);
     }
 }

@@ -215,4 +215,9 @@ final class TimeEntry implements Entry
     {
         return $this->value;
     }
+
+    public function withValue(mixed $value) : Entry
+    {
+        return new self($this->name, $value);
+    }
 }
