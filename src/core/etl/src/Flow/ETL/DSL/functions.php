@@ -28,7 +28,6 @@ use Flow\ETL\Function\{All,
     ArrayUnpack,
     Average,
     Between,
-    CallMethod,
     Capitalize,
     Cast,
     Coalesce,
@@ -942,15 +941,6 @@ function capitalize(ScalarFunction|string $value) : Capitalize
 function upper(ScalarFunction|string $value) : ToUpper
 {
     return new ToUpper($value);
-}
-
-/**
- * @param array<mixed> $params
- */
-#[DocumentationDSL(module: Module::CORE, type: DSLType::SCALAR_FUNCTION)]
-function call_method(object $object, ScalarFunction|string $method, array $params = []) : CallMethod
-{
-    return new CallMethod($object, $method, $params);
 }
 
 #[DocumentationDSL(module: Module::CORE, type: DSLType::SCALAR_FUNCTION)]
