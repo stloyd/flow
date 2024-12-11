@@ -1,6 +1,10 @@
-## [Unreleased] - 2024-12-09
+## [Unreleased] - 2024-12-11
 
 ### Added
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **Date entry type** - [@norberttech](https://github.com/norberttech)
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **Date logical type** - [@norberttech](https://github.com/norberttech)
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **Time entry type** - [@norberttech](https://github.com/norberttech)
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **Time logical type** - [@norberttech](https://github.com/norberttech)
 - [#1268](https://github.com/flow-php/flow/pull/1268) - **coalesce scalar function/li>** - [@norberttech](https://github.com/norberttech)
 - [#1267](https://github.com/flow-php/flow/pull/1267) - **Entry::withValue(mixed $value) : self** - [@norberttech](https://github.com/norberttech)
 - [#1257](https://github.com/flow-php/flow/pull/1257) - **Add testing against PHP 8.4** - [@stloyd](https://github.com/stloyd)
@@ -39,6 +43,10 @@
 
 ### Updated
 - [afb55b](https://github.com/flow-php/flow/commit/afb55b8a8d8f7678257b29cbd34737fbbb9f0fce) - **introduction.md** - [@norberttech](https://github.com/norberttech)
+
+### Removed
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **ArrayEntry which is now replaced with JsonEntry** - [@norberttech](https://github.com/norberttech)
+- [#1266](https://github.com/flow-php/flow/pull/1266) - **ObjectEntry** - [@norberttech](https://github.com/norberttech)
 
 ## [0.10.0] - 2024-10-03
 
