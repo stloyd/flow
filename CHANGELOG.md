@@ -1,6 +1,8 @@
 ## [Unreleased] - 2024-12-11
 
 ### Added
+- [#1270](https://github.com/flow-php/flow/pull/1270) - **Schema apply example** - [@norberttech](https://github.com/norberttech)
+- [#1270](https://github.com/flow-php/flow/pull/1270) - **Running examples in the test suite** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **Date entry type** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **Date logical type** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **Time entry type** - [@norberttech](https://github.com/norberttech)
@@ -16,6 +18,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1270](https://github.com/flow-php/flow/pull/1270) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [81964e](https://github.com/flow-php/flow/commit/81964edf1f620e025e15f6adec3c2042f33f18dd) - **Build cli command using latest available dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1262](https://github.com/flow-php/flow/pull/1262) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1261](https://github.com/flow-php/flow/pull/1261) - **Reimplemented from scratch Dremel Shredding/Assemble algorithms to cover all edge cases and fix bugs** - [@norberttech](https://github.com/norberttech)
@@ -31,6 +34,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1270](https://github.com/flow-php/flow/pull/1270) - **Missing Docs attribute in functions** - [@norberttech](https://github.com/norberttech)
 - [#1269](https://github.com/flow-php/flow/pull/1269) - **pivot edge case when pivot column is null** - [@norberttech](https://github.com/norberttech)
 - [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional list required element - list empty** - [@norberttech](https://github.com/norberttech)
 - [#1263](https://github.com/flow-php/flow/pull/1263) - **Parquet - optional map required value - map empty** - [@norberttech](https://github.com/norberttech)
@@ -46,6 +50,7 @@
 - [afb55b](https://github.com/flow-php/flow/commit/afb55b8a8d8f7678257b29cbd34737fbbb9f0fce) - **introduction.md** - [@norberttech](https://github.com/norberttech)
 
 ### Removed
+- [#1270](https://github.com/flow-php/flow/pull/1270) - **CallMethod scalar functions** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **ArrayEntry which is now replaced with JsonEntry** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **ObjectEntry** - [@norberttech](https://github.com/norberttech)
 
