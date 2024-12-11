@@ -33,7 +33,6 @@ $from_github_api = new PsrHttpClientDynamicExtractor($client, new class implemen
 data_frame()
     ->read($from_github_api)
     ->withEntry('unpacked', ref('response_body')->jsonDecode())
-    ->select('unpacked')
     ->withEntry('unpacked', ref('unpacked')->unpack())
     ->renameAll('unpacked.', '')
     ->drop('unpacked')

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use function Flow\ETL\DSL\{array_entry,
+use function Flow\ETL\DSL\{
     bool_entry,
     compare_entries_by_type_and_name,
     data_frame,
@@ -13,7 +13,6 @@ use function Flow\ETL\DSL\{array_entry,
     json_entry,
     list_entry,
     map_entry,
-    object_entry,
     row,
     rows,
     str_entry,
@@ -44,13 +43,6 @@ data_frame()
             str_entry('string_b', 'string'),
             uuid_entry('uuid', '06143adb-3009-45c8-a4f0-c7016f97cab7'),
             json_entry('json', ['id' => 1, 'status' => 'NEW']),
-            array_entry(
-                'array',
-                [
-                    ['id' => 1, 'status' => 'NEW'],
-                    ['id' => 2, 'status' => 'PENDING'],
-                ]
-            ),
             list_entry('list', [1, 2, 3], type_list(type_int())),
             map_entry('map', [0 => 'zero', 1 => 'one', 2 => 'two'], type_map(type_int(), type_string())),
             struct_entry(
@@ -76,7 +68,6 @@ data_frame()
                     ),
                 ]),
             ),
-            object_entry('object', new ArrayIterator([1, 2, 3])),
         )
     )))
     ->reorderEntries(compare_entries_by_type_and_name())

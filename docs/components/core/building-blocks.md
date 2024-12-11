@@ -45,8 +45,9 @@ $rows = array_to_rows([
 
 ## Entry Types
 
-- [Array](../../../src/core/etl/src/Flow/ETL/Row/Entry/ArrayEntry.php)
 - [Boolean](../../../src/core/etl/src/Flow/ETL/Row/Entry/BooleanEntry.php)
+- [Time](../../../src/core/etl/src/Flow/ETL/Row/Entry/TimeEntry.php)
+- [Date](../../../src/core/etl/src/Flow/ETL/Row/Entry/DateEntry.php)
 - [DateTime](../../../src/core/etl/src/Flow/ETL/Row/Entry/DateTimeEntry.php)
 - [Enum](../../../src/core/etl/src/Flow/ETL/Row/Entry/EnumEntry.php)
 - [Float](../../../src/core/etl/src/Flow/ETL/Row/Entry/FloatEntry.php)
@@ -54,7 +55,6 @@ $rows = array_to_rows([
 - [Json](../../../src/core/etl/src/Flow/ETL/Row/Entry/JsonEntry.php)
 - [List](../../../src/core/etl/src/Flow/ETL/Row/Entry/ListEntry.php)
 - [Map](../../../src/core/etl/src/Flow/ETL/Row/Entry/MapEntry.php)
-- [Object](../../../src/core/etl/src/Flow/ETL/Row/Entry/ObjectEntry.php)
 - [String](../../../src/core/etl/src/Flow/ETL/Row/Entry/StringEntry.php)
 - [Structure](../../../src/core/etl/src/Flow/ETL/Row/Entry/StructureEntry.php)
 - [Uuid](../../../src/core/etl/src/Flow/ETL/Row/Entry/UuidEntry.php)
