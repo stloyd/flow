@@ -1557,6 +1557,7 @@ function dom_element_to_string(\DOMElement $element, bool $format_output = false
     return $doc->saveXML($doc->documentElement);
 }
 
+#[DocumentationDSL(module: Module::CORE, type: DSLType::HELPER)]
 function date_interval_to_milliseconds(\DateInterval $interval) : int
 {
     if ($interval->y !== 0 || $interval->m !== 0) {
@@ -1573,6 +1574,7 @@ function date_interval_to_milliseconds(\DateInterval $interval) : int
         : (int) ($absoluteSeconds * 1000 + $interval->f * 1000);
 }
 
+#[DocumentationDSL(module: Module::CORE, type: DSLType::HELPER)]
 function date_interval_to_seconds(\DateInterval $interval) : int
 {
     if ($interval->y !== 0 || $interval->m !== 0) {
@@ -1589,6 +1591,7 @@ function date_interval_to_seconds(\DateInterval $interval) : int
         : (int) ceil($absoluteSeconds + $interval->f);
 }
 
+#[DocumentationDSL(module: Module::CORE, type: DSLType::HELPER)]
 function date_interval_to_microseconds(\DateInterval $interval) : int
 {
     if ($interval->y !== 0 || $interval->m !== 0) {
