@@ -285,7 +285,6 @@
             "@tools:update"
         ],
         "tools:install": [
-            "composer install --working-dir=./web/landing",
             "composer install --working-dir=./tools/blackfire",
             "composer install --working-dir=./tools/box",
             "composer install --working-dir=./tools/cs-fixer",
@@ -297,7 +296,6 @@
             "composer install --working-dir=./tools/phpunit"
         ],
         "tools:update": [
-            "composer update --working-dir=./web/landing",
             "composer update --working-dir=./tools/blackfire",
             "composer update --working-dir=./tools/box",
             "composer update --working-dir=./tools/cs-fixer",
