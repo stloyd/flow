@@ -32,7 +32,9 @@ foreach ($finder as $file) {
     print "\nExample: {$file->getRelativePathname()}\n";
 
     try {
-        include $file->getRealPath();
+        if ($file->getBasename() === 'code.php') {
+            include $file->getRealPath();
+        }
     } catch (Exception $e) {
         print "Example failed: {$e->getMessage()}\n";
 
