@@ -1,6 +1,9 @@
-## [Unreleased] - 2024-12-11
+## [Unreleased] - 2024-12-13
 
 ### Added
+- [#1271](https://github.com/flow-php/flow/pull/1271) - **Allow to pass schema to doctrine dbal extractors** - [@norberttech](https://github.com/norberttech)
+- [#1271](https://github.com/flow-php/flow/pull/1271) - **Database data source example to website** - [@norberttech](https://github.com/norberttech)
+- [#1271](https://github.com/flow-php/flow/pull/1271) - **Database data sink example to website** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Schema apply example** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Running examples in the test suite** - [@norberttech](https://github.com/norberttech)
 - [#1266](https://github.com/flow-php/flow/pull/1266) - **Date entry type** - [@norberttech](https://github.com/norberttech)
