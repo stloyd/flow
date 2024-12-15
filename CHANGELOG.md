@@ -1,6 +1,7 @@
-## [Unreleased] - 2024-12-14
+## [Unreleased] - 2024-12-15
 
 ### Added
+- [c36254](https://github.com/flow-php/flow/commit/c36254b41b3ade545de3922af9d9f07f825a950c) - **google ad-sense meta tag** - [@norberttech](https://github.com/norberttech)
 - [#1271](https://github.com/flow-php/flow/pull/1271) - **Allow to pass schema to doctrine dbal extractors** - [@norberttech](https://github.com/norberttech)
 - [#1271](https://github.com/flow-php/flow/pull/1271) - **Database data source example to website** - [@norberttech](https://github.com/norberttech)
 - [#1271](https://github.com/flow-php/flow/pull/1271) - **Database data sink example to website** - [@norberttech](https://github.com/norberttech)
