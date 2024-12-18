@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-12-15
+## [Unreleased] - 2024-12-18
 
 ### Added
 - [c36254](https://github.com/flow-php/flow/commit/c36254b41b3ade545de3922af9d9f07f825a950c) - **google ad-sense meta tag** - [@norberttech](https://github.com/norberttech)
@@ -39,6 +39,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1274](https://github.com/flow-php/flow/pull/1274) - **Fixed schema inferring when first rows are null** - [@norberttech](https://github.com/norberttech)
 - [#1272](https://github.com/flow-php/flow/pull/1272) - **Copy button scroll** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Missing Docs attribute in functions** - [@norberttech](https://github.com/norberttech)
 - [#1269](https://github.com/flow-php/flow/pull/1269) - **pivot edge case when pivot column is null** - [@norberttech](https://github.com/norberttech)
