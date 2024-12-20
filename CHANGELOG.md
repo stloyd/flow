@@ -40,6 +40,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [8bffbe](https://github.com/flow-php/flow/commit/8bffbe4b1480b61efccd823c9b78d261eda97565) - **broken documentation paths** - [@norberttech](https://github.com/norberttech)
 - [#1274](https://github.com/flow-php/flow/pull/1274) - **Fixed schema inferring when first rows are null** - [@norberttech](https://github.com/norberttech)
 - [#1272](https://github.com/flow-php/flow/pull/1272) - **Copy button scroll** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Missing Docs attribute in functions** - [@norberttech](https://github.com/norberttech)
