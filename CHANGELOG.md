@@ -1,6 +1,7 @@
-## [Unreleased] - 2024-12-20
+## [Unreleased] - 2024-12-21
 
 ### Added
+- [#1278](https://github.com/flow-php/flow/pull/1278) - **Added examples to documentation** - [@norberttech](https://github.com/norberttech)
 - [#1276](https://github.com/flow-php/flow/pull/1276) - **Improved flow-php.com documentation by rendering markdown files from repo on flow-php.com website** - [@norberttech](https://github.com/norberttech)
 - [c36254](https://github.com/flow-php/flow/commit/c36254b41b3ade545de3922af9d9f07f825a950c) - **google ad-sense meta tag** - [@norberttech](https://github.com/norberttech)
 - [#1271](https://github.com/flow-php/flow/pull/1271) - **Allow to pass schema to doctrine dbal extractors** - [@norberttech](https://github.com/norberttech)
