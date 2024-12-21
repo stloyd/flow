@@ -133,6 +133,18 @@ final class SitemapSubscriber implements EventSubscriberInterface
                     ),
                     'examples'
                 );
+
+                $event->getUrlContainer()->addUrl(
+                    new UrlConcrete(
+                        $event->getUrlGenerator()->generate(
+                            'documentation_example',
+                            ['topic' => $topic, 'example' => $example],
+                            UrlGeneratorInterface::ABSOLUTE_URL
+                        ),
+                        changefreq: 'weekly'
+                    ),
+                    'examples'
+                );
             }
         }
     }
