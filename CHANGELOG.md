@@ -24,6 +24,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1279](https://github.com/flow-php/flow/pull/1279) - **Improved user experience on mobile version of the documentation** - [@norberttech](https://github.com/norberttech)
 - [#1272](https://github.com/flow-php/flow/pull/1272) - **Renamed website examples topics** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [81964e](https://github.com/flow-php/flow/commit/81964edf1f620e025e15f6adec3c2042f33f18dd) - **Build cli command using latest available dependencies** - [@norberttech](https://github.com/norberttech)
