@@ -11,6 +11,10 @@ use League\CommonMark\Util\HtmlElement;
 
 class FlowLinkRenderer implements NodeRendererInterface
 {
+    public function __construct()
+    {
+    }
+
     public function render(Node $node, ChildNodeRendererInterface $childRenderer)
     {
         if (!$node instanceof Link) {
@@ -23,6 +27,11 @@ class FlowLinkRenderer implements NodeRendererInterface
 
         if (!isset($urlParts['scheme']) && !isset($urlParts['host'])) {
             $node->setUrl(str_replace('.md', '', $node->getUrl()));
+        }
+
+        if (str_starts_with($node->getUrl(), '/src')) {
+            $node->setUrl('https://github.com/flow-php/flow/blob/1.x' . $node->getUrl());
+            $attrs['target'] = '_blank';
         }
 
         $attrs['href'] = $node->getUrl();
