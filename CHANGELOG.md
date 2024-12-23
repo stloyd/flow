@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-12-22
+## [Unreleased] - 2024-12-23
 
 ### Added
 - [2b6ae2](https://github.com/flow-php/flow/commit/2b6ae2017837a74b35a4b2e112554913b118c20b) - **default google consent state script** - [@norberttech](https://github.com/norberttech)
@@ -26,6 +26,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [0a4fc3](https://github.com/flow-php/flow/commit/0a4fc3ddf1ac32ebe6751922c9965b4a7a7d473e) - **third party cookie banner provider with a custom solution** - [@norberttech](https://github.com/norberttech)
 - [#1279](https://github.com/flow-php/flow/pull/1279) - **Improved user experience on mobile version of the documentation** - [@norberttech](https://github.com/norberttech)
 - [#1272](https://github.com/flow-php/flow/pull/1272) - **Renamed website examples topics** - [@norberttech](https://github.com/norberttech)
 - [#1270](https://github.com/flow-php/flow/pull/1270) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
