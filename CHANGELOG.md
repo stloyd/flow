@@ -1,6 +1,7 @@
-## [Unreleased] - 2024-12-23
+## [Unreleased] - 2024-12-24
 
 ### Added
+- [#1280](https://github.com/flow-php/flow/pull/1280) - **Added cookies fallback page** - [@norberttech](https://github.com/norberttech)
 - [2b6ae2](https://github.com/flow-php/flow/commit/2b6ae2017837a74b35a4b2e112554913b118c20b) - **default google consent state script** - [@norberttech](https://github.com/norberttech)
 - [6e3a60](https://github.com/flow-php/flow/commit/6e3a602b7622fc341c19df3b9f359d5546df8c9d) - **cookie banner to the website** - [@norberttech](https://github.com/norberttech)
 - [#1278](https://github.com/flow-php/flow/pull/1278) - **Added examples to documentation** - [@norberttech](https://github.com/norberttech)
