@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Flow\Azure\SDK\Unit\BlobService\URLFactory;
+namespace Flow\Azure\SDK\Tests\Unit\BlobService\URLFactory;
 
 use Flow\Azure\SDK\BlobService\URLFactory\{AzureURLFactory, AzuriteURLFactory};
 use Flow\Azure\SDK\BlobService\{Configuration};
@@ -10,7 +10,7 @@ use Flow\Azure\SDK\URLFactory;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
-final class URLFactoryTests extends TestCase
+final class URLFactoryTest extends TestCase
 {
     public static function factoryProvider() : array
     {
