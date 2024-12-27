@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-12-25
+## [Unreleased] - 2024-12-27
 
 ### Added
 - [#1280](https://github.com/flow-php/flow/pull/1280) - **Added cookies fallback page** - [@norberttech](https://github.com/norberttech)
@@ -27,6 +27,8 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1287](https://github.com/flow-php/flow/pull/1287) - **Split test suite into independent jobs** - [@norberttech](https://github.com/norberttech)
+- [#1287](https://github.com/flow-php/flow/pull/1287) - **Locked meilisearch to 1.11** - [@norberttech](https://github.com/norberttech)
 - [085971](https://github.com/flow-php/flow/commit/0859718d573c0f3c2b1fe817a7c88838256196f0) - **Create ads.txt** - [@norberttech](https://github.com/norberttech)
 - [0a4fc3](https://github.com/flow-php/flow/commit/0a4fc3ddf1ac32ebe6751922c9965b4a7a7d473e) - **third party cookie banner provider with a custom solution** - [@norberttech](https://github.com/norberttech)
 - [#1279](https://github.com/flow-php/flow/pull/1279) - **Improved user experience on mobile version of the documentation** - [@norberttech](https://github.com/norberttech)
