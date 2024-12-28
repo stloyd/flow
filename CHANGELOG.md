@@ -29,6 +29,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1292](https://github.com/flow-php/flow/pull/1292) - **Update & adjust Infection configuration** - [@stloyd](https://github.com/stloyd)
 - [#1287](https://github.com/flow-php/flow/pull/1287) - **Split test suite into independent jobs** - [@norberttech](https://github.com/norberttech)
 - [#1287](https://github.com/flow-php/flow/pull/1287) - **Locked meilisearch to 1.11** - [@norberttech](https://github.com/norberttech)
 - [085971](https://github.com/flow-php/flow/commit/0859718d573c0f3c2b1fe817a7c88838256196f0) - **Create ads.txt** - [@norberttech](https://github.com/norberttech)
