@@ -1,6 +1,7 @@
 ## [Unreleased] - 2024-12-28
 
 ### Added
+- [#1296](https://github.com/flow-php/flow/pull/1296) - **Added codecov integration** - [@norberttech](https://github.com/norberttech)
 - [#1295](https://github.com/flow-php/flow/pull/1295) - **Symfony Http Foundation Bridge documentation to navigation** - [@norberttech](https://github.com/norberttech)
 - [#1294](https://github.com/flow-php/flow/pull/1294) - **Documentation building step to github actions workflow** - [@norberttech](https://github.com/norberttech)
 - [#1281](https://github.com/flow-php/flow/pull/1281) - **S3 Filesystem based on Async AWS library** - [@norberttech](https://github.com/norberttech)
