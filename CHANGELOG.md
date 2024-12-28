@@ -58,6 +58,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1299](https://github.com/flow-php/flow/pull/1299) - **Fixed typo in AWS filesystem docs** - [@stloyd](https://github.com/stloyd)
 - [#1297](https://github.com/flow-php/flow/pull/1297) - **Website navigation** - [@norberttech](https://github.com/norberttech)
 - [#1294](https://github.com/flow-php/flow/pull/1294) - **Fixed broken documentation building script** - [@norberttech](https://github.com/norberttech)
 - [#1281](https://github.com/flow-php/flow/pull/1281) - **Meilisearch pagination** - [@norberttech](https://github.com/norberttech)
