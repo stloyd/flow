@@ -29,6 +29,8 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1293](https://github.com/flow-php/flow/pull/1293) - **Increase minimal MSI for Infection** - [@stloyd](https://github.com/stloyd)
+- [#1293](https://github.com/flow-php/flow/pull/1293) - **Run mutations tests when changing Inflection related files** - [@stloyd](https://github.com/stloyd)
 - [#1292](https://github.com/flow-php/flow/pull/1292) - **Update & adjust Infection configuration** - [@stloyd](https://github.com/stloyd)
 - [#1287](https://github.com/flow-php/flow/pull/1287) - **Split test suite into independent jobs** - [@norberttech](https://github.com/norberttech)
 - [#1287](https://github.com/flow-php/flow/pull/1287) - **Locked meilisearch to 1.11** - [@norberttech](https://github.com/norberttech)
