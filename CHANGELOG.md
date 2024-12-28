@@ -1,6 +1,7 @@
 ## [Unreleased] - 2024-12-28
 
 ### Added
+- [#1295](https://github.com/flow-php/flow/pull/1295) - **Symfony Http Foundation Bridge documentation to navigation** - [@norberttech](https://github.com/norberttech)
 - [#1294](https://github.com/flow-php/flow/pull/1294) - **Documentation building step to github actions workflow** - [@norberttech](https://github.com/norberttech)
 - [#1281](https://github.com/flow-php/flow/pull/1281) - **S3 Filesystem based on Async AWS library** - [@norberttech](https://github.com/norberttech)
 - [#1281](https://github.com/flow-php/flow/pull/1281) - **Timeout to testsuite job at github actios** - [@norberttech](https://github.com/norberttech)
@@ -30,6 +31,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1295](https://github.com/flow-php/flow/pull/1295) - **Improved readability of remote filesystem examples** - [@norberttech](https://github.com/norberttech)
 - [#1293](https://github.com/flow-php/flow/pull/1293) - **Increase minimal MSI for Infection** - [@stloyd](https://github.com/stloyd)
 - [#1293](https://github.com/flow-php/flow/pull/1293) - **Run mutations tests when changing Inflection related files** - [@stloyd](https://github.com/stloyd)
 - [#1292](https://github.com/flow-php/flow/pull/1292) - **Update & adjust Infection configuration** - [@stloyd](https://github.com/stloyd)
