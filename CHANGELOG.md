@@ -32,6 +32,8 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1300](https://github.com/flow-php/flow/pull/1300) - **Moved coverage and phpunit logs to standalone files** - [@norberttech](https://github.com/norberttech)
+- [#1300](https://github.com/flow-php/flow/pull/1300) - **upload to codecov only from one php and deps version** - [@norberttech](https://github.com/norberttech)
 - [#1295](https://github.com/flow-php/flow/pull/1295) - **Improved readability of remote filesystem examples** - [@norberttech](https://github.com/norberttech)
 - [#1293](https://github.com/flow-php/flow/pull/1293) - **Increase minimal MSI for Infection** - [@stloyd](https://github.com/stloyd)
 - [#1293](https://github.com/flow-php/flow/pull/1293) - **Run mutations tests when changing Inflection related files** - [@stloyd](https://github.com/stloyd)
