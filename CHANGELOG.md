@@ -64,6 +64,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [c7d57a](https://github.com/flow-php/flow/commit/c7d57aa4a149e3641da9a2f7d5a91f6f16a70240) - **bug in baseline workflow related to fetching base commit sha** - [@norberttech](https://github.com/norberttech)
 - [#1299](https://github.com/flow-php/flow/pull/1299) - **Fixed typo in AWS filesystem docs** - [@stloyd](https://github.com/stloyd)
 - [#1297](https://github.com/flow-php/flow/pull/1297) - **Website navigation** - [@norberttech](https://github.com/norberttech)
 - [#1294](https://github.com/flow-php/flow/pull/1294) - **Fixed broken documentation building script** - [@norberttech](https://github.com/norberttech)
