@@ -250,21 +250,21 @@ jobs:
         run: "composer test:examples"
 
       - name: Upload test results to Codecov.io
-        if: ${{ !cancelled() }} && ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ !cancelled() && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         uses: codecov/test-results-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./var/phpunit/logs
 
       - name: Upload code coverage data to Codecov.io
-        if: ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ !cancelled() && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./var/phpunit/coverage/clover
 
       - name: Get the branch name and SHA
-        if: ${{ github.event_name == 'push' }} && ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ github.event_name == 'push' && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         run: |
           branch_name=${GITHUB_REF#refs/heads/}
           commit_sha=$(git rev-parse HEAD)
@@ -272,18 +272,18 @@ jobs:
           echo "codecov_commit_sha=$commit_sha" >> $GITHUB_ENV
 
       - name: Save commit SHA to file
-        if: ${{ github.event_name == 'push' }} && ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ github.event_name == 'push' && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         run: echo -n "${{ env.codecov_commit_sha }}" > codecov-base-commit-sha-${{ env.codecov_branch_name }}.txt
 
       - name: Upload commit SHA as artifact
-        if: ${{ github.event_name == 'push' }} && ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ github.event_name == 'push' && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         uses: actions/upload-artifact@v4
         with:
           name: codecov-base-commit-sha-${{ env.codecov_branch_name }}
           path: codecov-base-commit-sha-${{ env.codecov_branch_name }}.txt
 
       - name: "Put SHA to step summary"
-        if: ${{ github.event_name == 'push' }} && ${{ matrix.php-version == '8.2' }} && ${{ matrix.dependencies == 'locked' }}
+        if: ${{ github.event_name == 'push' && matrix.php-version == '8.2' && matrix.dependencies == 'locked' }}
         run: |
           echo "Baseline commit SHA for Codecov: ${{ env.codecov_commit_sha }}" >> $GITHUB_STEP_SUMMARY
 
