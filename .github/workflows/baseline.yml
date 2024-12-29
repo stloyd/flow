@@ -1,4 +1,4 @@
-name: Build
+name: Baseline
 
 on:
   workflow_dispatch:
@@ -254,18 +254,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch specific branch
-        run: git fetch origin {{ github.event.inputs.branch_name }}
-
-      - name: Get the latest commit SHA from the branch
-        id: get_sha
+      - name: Get the branch name and SHA
         run: |
-          branch_sha=$(git rev-parse origin/{{ github.event.inputs.branch_name }})
-          echo "sha=$branch_sha" >> $GITHUB_ENV
-          echo "branch_name={{ github.event.inputs.branch_name }}" >> $GITHUB_ENV
+          branch_name=${GITHUB_REF#refs/heads/}
+          commit_sha=$(git rev-parse HEAD)
+          echo "branch_name=$branch_name" >> $GITHUB_ENV
+          echo "commit_sha=$commit_sha" >> $GITHUB_ENV
 
       - name: Upload commit SHA as artifact
         uses: actions/upload-artifact@v3
         with:
-          name: "base-commit-sha-{{ github.event.inputs.branch_name }}"
-          path: <(echo -n $sha)  # Directly pass the SHA
+          name: base-commit-sha-${{ env.branch_name }}
+          path: <(echo -n ${{ env.commit_sha }})
