@@ -1,6 +1,7 @@
 ## [Unreleased] - 2024-12-29
 
 ### Added
+- [#1291](https://github.com/flow-php/flow/pull/1291) - **FlowTestCase with assertions around Extractors** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1296](https://github.com/flow-php/flow/pull/1296) - **Added codecov integration** - [@norberttech](https://github.com/norberttech)
 - [#1295](https://github.com/flow-php/flow/pull/1295) - **Symfony Http Foundation Bridge documentation to navigation** - [@norberttech](https://github.com/norberttech)
 - [#1294](https://github.com/flow-php/flow/pull/1294) - **Documentation building step to github actions workflow** - [@norberttech](https://github.com/norberttech)
@@ -2053,6 +2054,7 @@
 ## Contributors
 
 - @alexislefebvre
+- @Bellangelo
 - @DawidSajdak
 - @drupol
 - @flavioheleno
