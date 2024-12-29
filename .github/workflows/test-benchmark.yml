@@ -1,4 +1,4 @@
-name: Benchmark Suite
+name: Test Benchmarks
 
 on:
   pull_request:

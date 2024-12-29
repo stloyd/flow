@@ -246,30 +246,3 @@ jobs:
           source-directory: 'web/landing/build'
           destination-github-username: 'flow-php'
           destination-repository-name: 'flow-php.com'
-
-  set-baseline-commit-sha:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Get the branch name and SHA
-        run: |
-          branch_name=${GITHUB_REF#refs/heads/}
-          commit_sha=$(git rev-parse HEAD)
-          echo "branch_name=$branch_name" >> $GITHUB_ENV
-          echo "commit_sha=$commit_sha" >> $GITHUB_ENV
-
-      - name: Save commit SHA to file
-        run: echo -n "${{ env.commit_sha }}" > base-commit-sha-${{ env.branch_name }}.txt
-
-      - name: Upload commit SHA as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: base-commit-sha-${{ env.branch_name }}
-          path: base-commit-sha-${{ env.branch_name }}.txt
-
-      - name: "Put SHA to step summary"
-        run: |
-          echo "Baseline commit SHA: ${{ env.commit_sha }}" >> $GITHUB_STEP_SUMMARY
