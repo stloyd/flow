@@ -91,6 +91,7 @@
 - [#1243](https://github.com/flow-php/flow/pull/1243) - **Fixed flow cli autoloading** - [@norberttech](https://github.com/norberttech)
 
 ### Updated
+- [1ff799](https://github.com/flow-php/flow/commit/1ff79929ad11b38e9a3ab2fa204f1d7c927680e4) - **base test case for avro** - [@norberttech](https://github.com/norberttech)
 - [a3080b](https://github.com/flow-php/flow/commit/a3080b297c7a63e9bc9bdd1f5363dec529814106) - **github actions step conditions** - [@norberttech](https://github.com/norberttech)
 - [575eeb](https://github.com/flow-php/flow/commit/575eeb43bd748b2d8329c7a6c88208208ae357ab) - **README.md** - [@norberttech](https://github.com/norberttech)
 - [df71e5](https://github.com/flow-php/flow/commit/df71e5e4f251126ee2b18f7d8af77d002424ebf2) - **.gitattributes of flow-php/etl** - [@norberttech](https://github.com/norberttech)
