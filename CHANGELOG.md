@@ -33,6 +33,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [47990c](https://github.com/flow-php/flow/commit/47990cdca675e2cba3b87d2e64e230e26111fdb6) - **Moved uploading baseline codecov commit sha to test suite workflow and merged test suite with extensions tests** - [@norberttech](https://github.com/norberttech)
 - [a90bf2](https://github.com/flow-php/flow/commit/a90bf215817d3e4e769da01e7efab6a45fe7c613) - **Unified github workflows** - [@norberttech](https://github.com/norberttech)
 - [#1302](https://github.com/flow-php/flow/pull/1302) - **Updated infection configuration to focus it at core only** - [@norberttech](https://github.com/norberttech)
 - [2072d8](https://github.com/flow-php/flow/commit/2072d8d620aaf0ae013d005455c9306f9a529d0c) - **Renamed output files of phpunit coverage report and junit report for codecov** - [@norberttech](https://github.com/norberttech)
