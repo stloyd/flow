@@ -1,6 +1,7 @@
 ## [Unreleased] - 2024-12-29
 
 ### Added
+- [d8ee4f](https://github.com/flow-php/flow/commit/d8ee4fa0e9fe83a94f9c7c96bb860a8bed77b2e9) - **flags for codecov uploads** - [@norberttech](https://github.com/norberttech)
 - [#1291](https://github.com/flow-php/flow/pull/1291) - **FlowTestCase with assertions around Extractors** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1296](https://github.com/flow-php/flow/pull/1296) - **Added codecov integration** - [@norberttech](https://github.com/norberttech)
 - [#1295](https://github.com/flow-php/flow/pull/1295) - **Symfony Http Foundation Bridge documentation to navigation** - [@norberttech](https://github.com/norberttech)
