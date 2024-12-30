@@ -34,6 +34,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1306](https://github.com/flow-php/flow/pull/1306) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1303](https://github.com/flow-php/flow/pull/1303) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1305](https://github.com/flow-php/flow/pull/1305) - **Moved FlowIntegrationTestCase to the same namespace as FlowTestCase** - [@norberttech](https://github.com/norberttech)
 - [#1304](https://github.com/flow-php/flow/pull/1304) - **Set commit parent for codecov coverage/test report comparison** - [@norberttech](https://github.com/norberttech)
