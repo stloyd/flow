@@ -1,4 +1,4 @@
-## [Unreleased] - 2024-12-29
+## [Unreleased] - 2024-12-30
 
 ### Added
 - [d8ee4f](https://github.com/flow-php/flow/commit/d8ee4fa0e9fe83a94f9c7c96bb860a8bed77b2e9) - **flags for codecov uploads** - [@norberttech](https://github.com/norberttech)
@@ -34,6 +34,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1303](https://github.com/flow-php/flow/pull/1303) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1305](https://github.com/flow-php/flow/pull/1305) - **Moved FlowIntegrationTestCase to the same namespace as FlowTestCase** - [@norberttech](https://github.com/norberttech)
 - [#1304](https://github.com/flow-php/flow/pull/1304) - **Set commit parent for codecov coverage/test report comparison** - [@norberttech](https://github.com/norberttech)
 - [47990c](https://github.com/flow-php/flow/commit/47990cdca675e2cba3b87d2e64e230e26111fdb6) - **Moved uploading baseline codecov commit sha to test suite workflow and merged test suite with extensions tests** - [@norberttech](https://github.com/norberttech)
