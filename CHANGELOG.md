@@ -35,6 +35,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [71e16c](https://github.com/flow-php/flow/commit/71e16c6edf209ef59da8b43c18e11aa3e767ec8c) - **Improved spacing between google ads** - [@norberttech](https://github.com/norberttech)
 - [#1308](https://github.com/flow-php/flow/pull/1308) - **Replaced flags with components in codecov configuration** - [@norberttech](https://github.com/norberttech)
 - [#1307](https://github.com/flow-php/flow/pull/1307) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1306](https://github.com/flow-php/flow/pull/1306) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
