@@ -108,6 +108,18 @@ code {
     @apply inline;
 }
 
+#documentation-page table {
+    @apply w-full table-auto mb-3 border-collapse border-2 border-gray;
+}
+
+#documentation-page th {
+    @apply border border-gray p-2;
+}
+
+#documentation-page td {
+    @apply border border-gray p-2;
+}
+
 #documentation-page hr, p, pre, ul, h2, h3 {
     @apply mb-3;
 }

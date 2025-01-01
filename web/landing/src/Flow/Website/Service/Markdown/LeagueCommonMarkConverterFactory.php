@@ -9,6 +9,7 @@ use League\CommonMark\Extension\CommonMark\Node\Block\FencedCode;
 use League\CommonMark\Extension\CommonMark\Node\Inline\Link;
 use League\CommonMark\Extension\ExternalLink\ExternalLinkExtension;
 use League\CommonMark\Extension\FrontMatter\FrontMatterExtension;
+use League\CommonMark\Extension\Table\TableExtension;
 
 final class LeagueCommonMarkConverterFactory
 {
@@ -26,6 +27,7 @@ final class LeagueCommonMarkConverterFactory
         $converter->getEnvironment()
             ->addExtension(new ExternalLinkExtension())
             ->addExtension(new FrontMatterExtension())
+            ->addExtension(new TableExtension())
             ->addRenderer(FencedCode::class, new FlowCodeRenderer(), 0)
             ->addRenderer(Link::class, new FlowLinkRenderer(), 0);
 
