@@ -16,6 +16,10 @@ html {
     inset: unset;
 }
 
+.google-ad {
+    @apply mb-5
+}
+
 #documentation-examples ul {
     @apply list-disc pl-6;
 }
