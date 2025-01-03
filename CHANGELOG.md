@@ -1,6 +1,8 @@
-## [Unreleased] - 2025-01-02
+## [Unreleased] - 2025-01-03
 
 ### Added
+- [#1320](https://github.com/flow-php/flow/pull/1320) - **greatest scalar function** - [@norberttech](https://github.com/norberttech)
+- [#1320](https://github.com/flow-php/flow/pull/1320) - **least scalar function** - [@norberttech](https://github.com/norberttech)
 - [#1318](https://github.com/flow-php/flow/pull/1318) - **Edit on GitHub button to website pages** - [@norberttech](https://github.com/norberttech)
 - [4bd3d3](https://github.com/flow-php/flow/commit/4bd3d30eba5bbd88ca7b861c4fed7b0d599a0b3f) - **experimental google ads** - [@norberttech](https://github.com/norberttech)
 - [d8ee4f](https://github.com/flow-php/flow/commit/d8ee4fa0e9fe83a94f9c7c96bb860a8bed77b2e9) - **flags for codecov uploads** - [@norberttech](https://github.com/norberttech)
