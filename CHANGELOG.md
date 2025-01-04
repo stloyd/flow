@@ -1,6 +1,7 @@
 ## [Unreleased] - 2025-01-04
 
 ### Added
+- [#1326](https://github.com/flow-php/flow/pull/1326) - **template to Types that defines underlying data type** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **Precision to float type** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **caster DSL function** - [@norberttech](https://github.com/norberttech)
 - [#1320](https://github.com/flow-php/flow/pull/1320) - **greatest scalar function** - [@norberttech](https://github.com/norberttech)
@@ -40,6 +41,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1326](https://github.com/flow-php/flow/pull/1326) - **Made return types of casting handlers more strict** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **Caster will now respect float precision** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **Split ScalarType into standalone types** - [@norberttech](https://github.com/norberttech)
 - [71e16c](https://github.com/flow-php/flow/commit/71e16c6edf209ef59da8b43c18e11aa3e767ec8c) - **Improved spacing between google ads** - [@norberttech](https://github.com/norberttech)
