@@ -1,6 +1,8 @@
-## [Unreleased] - 2025-01-03
+## [Unreleased] - 2025-01-04
 
 ### Added
+- [#1325](https://github.com/flow-php/flow/pull/1325) - **Precision to float type** - [@norberttech](https://github.com/norberttech)
+- [#1325](https://github.com/flow-php/flow/pull/1325) - **caster DSL function** - [@norberttech](https://github.com/norberttech)
 - [#1320](https://github.com/flow-php/flow/pull/1320) - **greatest scalar function** - [@norberttech](https://github.com/norberttech)
 - [#1320](https://github.com/flow-php/flow/pull/1320) - **least scalar function** - [@norberttech](https://github.com/norberttech)
 - [#1318](https://github.com/flow-php/flow/pull/1318) - **Edit on GitHub button to website pages** - [@norberttech](https://github.com/norberttech)
@@ -38,6 +40,8 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1325](https://github.com/flow-php/flow/pull/1325) - **Caster will now respect float precision** - [@norberttech](https://github.com/norberttech)
+- [#1325](https://github.com/flow-php/flow/pull/1325) - **Split ScalarType into standalone types** - [@norberttech](https://github.com/norberttech)
 - [71e16c](https://github.com/flow-php/flow/commit/71e16c6edf209ef59da8b43c18e11aa3e767ec8c) - **Improved spacing between google ads** - [@norberttech](https://github.com/norberttech)
 - [#1308](https://github.com/flow-php/flow/pull/1308) - **Replaced flags with components in codecov configuration** - [@norberttech](https://github.com/norberttech)
 - [#1307](https://github.com/flow-php/flow/pull/1307) - **Used the new `FlowTestCase` in all the ETL tests** - [@Bellangelo](https://github.com/Bellangelo)
