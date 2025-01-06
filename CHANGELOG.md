@@ -1,6 +1,8 @@
 ## [Unreleased] - 2025-01-06
 
 ### Added
+- [#1337](https://github.com/flow-php/flow/pull/1337) - **Slug Scalar Function** - [@norberttech](https://github.com/norberttech)
+- [#1337](https://github.com/flow-php/flow/pull/1337) - **Ascii Scalar Function** - [@norberttech](https://github.com/norberttech)
 - [#1326](https://github.com/flow-php/flow/pull/1326) - **template to Types that defines underlying data type** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **Precision to float type** - [@norberttech](https://github.com/norberttech)
 - [#1325](https://github.com/flow-php/flow/pull/1325) - **caster DSL function** - [@norberttech](https://github.com/norberttech)
