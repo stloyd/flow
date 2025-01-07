@@ -1,6 +1,7 @@
-## [Unreleased] - 2025-01-06
+## [Unreleased] - 2025-01-07
 
 ### Added
+- [#1339](https://github.com/flow-php/flow/pull/1339) - **Tool - rector** - [@norberttech](https://github.com/norberttech)
 - [#1337](https://github.com/flow-php/flow/pull/1337) - **Slug Scalar Function** - [@norberttech](https://github.com/norberttech)
 - [#1337](https://github.com/flow-php/flow/pull/1337) - **Ascii Scalar Function** - [@norberttech](https://github.com/norberttech)
 - [#1326](https://github.com/flow-php/flow/pull/1326) - **template to Types that defines underlying data type** - [@norberttech](https://github.com/norberttech)
@@ -43,6 +44,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1339](https://github.com/flow-php/flow/pull/1339) - **Upgraded codebase to PHP 8.2** - [@norberttech](https://github.com/norberttech)
 - [#1336](https://github.com/flow-php/flow/pull/1336) - **Replaced jawira/case-converter with symfony/string** - [@norberttech](https://github.com/norberttech)
 - [#1336](https://github.com/flow-php/flow/pull/1336) - **Removed redundant String Style class** - [@norberttech](https://github.com/norberttech)
 - [#1328](https://github.com/flow-php/flow/pull/1328) - **Harden phpstan generics static analysis configuration** - [@norberttech](https://github.com/norberttech)
