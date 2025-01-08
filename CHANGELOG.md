@@ -1,6 +1,7 @@
-## [Unreleased] - 2025-01-07
+## [Unreleased] - 2025-01-08
 
 ### Added
+- [#1329](https://github.com/flow-php/flow/pull/1329) - **Run PHPStan for test suite** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1341](https://github.com/flow-php/flow/pull/1341) - **Rector to static analysis tools** - [@norberttech](https://github.com/norberttech)
 - [#1339](https://github.com/flow-php/flow/pull/1339) - **Tool - rector** - [@norberttech](https://github.com/norberttech)
 - [#1337](https://github.com/flow-php/flow/pull/1337) - **Slug Scalar Function** - [@norberttech](https://github.com/norberttech)
