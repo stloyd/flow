@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-08
+## [Unreleased] - 2025-01-10
 
 ### Added
 - [#1329](https://github.com/flow-php/flow/pull/1329) - **Run PHPStan for test suite** - [@Bellangelo](https://github.com/Bellangelo)
@@ -122,6 +122,7 @@
 - [#1243](https://github.com/flow-php/flow/pull/1243) - **Fixed flow cli autoloading** - [@norberttech](https://github.com/norberttech)
 
 ### Updated
+- [0e18bb](https://github.com/flow-php/flow/commit/0e18bb836c96d4a7166182ed81ad6ac1169a4382) - **README.md** - [@norberttech](https://github.com/norberttech)
 - [716443](https://github.com/flow-php/flow/commit/716443664886ffe8c9f40e168c22b17970afc4d6) - **dependencies** - [@norberttech](https://github.com/norberttech)
 - [c7e512](https://github.com/flow-php/flow/commit/c7e5123eef14293c7e7c197a6de2f96c1edb4417) - **README.md** - [@norberttech](https://github.com/norberttech)
 - [1ff799](https://github.com/flow-php/flow/commit/1ff79929ad11b38e9a3ab2fa204f1d7c927680e4) - **base test case for avro** - [@norberttech](https://github.com/norberttech)
