@@ -22,6 +22,9 @@ $finder = Finder::create()
         __DIR__ . '/web/**/tests',
         __DIR__ . '/examples',
         __DIR__ . '/tools/rector/src',
+    ])
+    ->exclude([
+        __DIR__ . '/src/lib/parquet/src/Flow/Parquet/Thrift'
     ]);
 
 if (!\file_exists(__DIR__ . '/var')) {
@@ -146,6 +149,8 @@ return (new Config())
         'ternary_to_null_coalescing' => true,
         'yoda_style' => false,
         'void_return' => true,
+        'fully_qualified_strict_types' => false,
+        'phpdoc_array_type' => true,
         'php_unit_method_casing' => ['case' => 'snake_case'],
         'php_unit_test_case_static_method_calls' => ['call_type' => 'static'],
     ])
