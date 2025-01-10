@@ -46,6 +46,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [4f86b6](https://github.com/flow-php/flow/commit/4f86b650a36d24cb22c83e49962f711033b0417b) - **Create SECURITY.md** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **Simplified defining StructureType by removing StructureElement** - [@norberttech](https://github.com/norberttech)
 - [#1341](https://github.com/flow-php/flow/pull/1341) - **Enforce using DSL in test suite** - [@norberttech](https://github.com/norberttech)
 - [#1339](https://github.com/flow-php/flow/pull/1339) - **Upgraded codebase to PHP 8.2** - [@norberttech](https://github.com/norberttech)
