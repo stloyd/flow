@@ -1,6 +1,7 @@
 ## [Unreleased] - 2025-01-11
 
 ### Added
+- [#1356](https://github.com/flow-php/flow/pull/1356) - **List of all packages to the installation page** - [@norberttech](https://github.com/norberttech)
 - [#1355](https://github.com/flow-php/flow/pull/1355) - **manifest.json file with all packages in this monorepo** - [@norberttech](https://github.com/norberttech)
 - [#1345](https://github.com/flow-php/flow/pull/1345) - **Project ADR's** - [@norberttech](https://github.com/norberttech)
 - [#1329](https://github.com/flow-php/flow/pull/1329) - **Run PHPStan for test suite** - [@Bellangelo](https://github.com/Bellangelo)
