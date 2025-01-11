@@ -1,6 +1,7 @@
-## [Unreleased] - 2025-01-10
+## [Unreleased] - 2025-01-11
 
 ### Added
+- [#1355](https://github.com/flow-php/flow/pull/1355) - **manifest.json file with all packages in this monorepo** - [@norberttech](https://github.com/norberttech)
 - [#1345](https://github.com/flow-php/flow/pull/1345) - **Project ADR's** - [@norberttech](https://github.com/norberttech)
 - [#1329](https://github.com/flow-php/flow/pull/1329) - **Run PHPStan for test suite** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1341](https://github.com/flow-php/flow/pull/1341) - **Rector to static analysis tools** - [@norberttech](https://github.com/norberttech)
