@@ -1,5 +1,5 @@
 {
-    "name": "flow-php/filesytem-azure-bridge",
+    "name": "flow-php/filesystem-azure-bridge",
     "type": "library",
     "description": "PHP ETL - Flow Filesystem Azure Bridge",
     "keywords": [

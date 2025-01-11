@@ -1,5 +1,5 @@
 {
-    "name": "flow-php/filesytem-async-aws-bridge",
+    "name": "flow-php/filesystem-async-aws-bridge",
     "type": "library",
     "description": "PHP ETL - Flow Filesystem Async AWS Bridge",
     "keywords": [
