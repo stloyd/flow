@@ -98,6 +98,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [432fee](https://github.com/flow-php/flow/commit/432fee25b0730116ec064e80e98464a3d0366111) - **filesystem bridges composer names** - [@norberttech](https://github.com/norberttech)
 - [aa57c0](https://github.com/flow-php/flow/commit/aa57c00b07726b809796d888fbb6c8327be6d54b) - **path in manifest** - [@norberttech](https://github.com/norberttech)
 - [#1350](https://github.com/flow-php/flow/pull/1350) - **PHPStan argument.type error** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **Structure ignoring wrong element names, not matching type definition** - [@norberttech](https://github.com/norberttech)
