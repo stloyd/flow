@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-11
+## [Unreleased] - 2025-01-12
 
 ### Added
 - [#1356](https://github.com/flow-php/flow/pull/1356) - **List of all packages to the installation page** - [@norberttech](https://github.com/norberttech)
@@ -49,6 +49,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1357](https://github.com/flow-php/flow/pull/1357) - **Improved Type template** - [@norberttech](https://github.com/norberttech)
 - [4f86b6](https://github.com/flow-php/flow/commit/4f86b650a36d24cb22c83e49962f711033b0417b) - **Create SECURITY.md** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **Simplified defining StructureType by removing StructureElement** - [@norberttech](https://github.com/norberttech)
 - [#1341](https://github.com/flow-php/flow/pull/1341) - **Enforce using DSL in test suite** - [@norberttech](https://github.com/norberttech)
