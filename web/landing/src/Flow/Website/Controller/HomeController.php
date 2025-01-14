@@ -30,4 +30,10 @@ final class HomeController extends AbstractController
             'topics' => $this->examples->topics(),
         ]);
     }
+
+    #[Route('/sponsor', name: 'sponsor', options: ['sitemap' => false])]
+    public function sponsor() : Response
+    {
+        return $this->render('main/sponsor.html.twig', []);
+    }
 }
