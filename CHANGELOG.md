@@ -51,6 +51,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1368](https://github.com/flow-php/flow/pull/1368) - **Return integers from Round func when precision is set to 0** - [@norberttech](https://github.com/norberttech)
 - [#1357](https://github.com/flow-php/flow/pull/1357) - **Improved Type template** - [@norberttech](https://github.com/norberttech)
 - [4f86b6](https://github.com/flow-php/flow/commit/4f86b650a36d24cb22c83e49962f711033b0417b) - **Create SECURITY.md** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **Simplified defining StructureType by removing StructureElement** - [@norberttech](https://github.com/norberttech)
