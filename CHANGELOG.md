@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-14
+## [Unreleased] - 2025-01-15
 
 ### Added
 - [25b741](https://github.com/flow-php/flow/commit/25b7415d3911fa076af7b4bfa8b848a44b405b28) - **sponsor page** - [@norberttech](https://github.com/norberttech)
@@ -51,6 +51,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1370](https://github.com/flow-php/flow/pull/1370) - **Allow to group by more than one column on pivot** - [@norberttech](https://github.com/norberttech)
 - [#1368](https://github.com/flow-php/flow/pull/1368) - **Return integers from Round func when precision is set to 0** - [@norberttech](https://github.com/norberttech)
 - [#1357](https://github.com/flow-php/flow/pull/1357) - **Improved Type template** - [@norberttech](https://github.com/norberttech)
 - [4f86b6](https://github.com/flow-php/flow/commit/4f86b650a36d24cb22c83e49962f711033b0417b) - **Create SECURITY.md** - [@norberttech](https://github.com/norberttech)
