@@ -142,6 +142,7 @@
 - [#1243](https://github.com/flow-php/flow/pull/1243) - **Fixed flow cli autoloading** - [@norberttech](https://github.com/norberttech)
 
 ### Updated
+- [5fa15b](https://github.com/flow-php/flow/commit/5fa15bf99f0fefa6294a5e7f4102cbc2f339a3f8) - **SECURITY.md** - [@norberttech](https://github.com/norberttech)
 - [0e18bb](https://github.com/flow-php/flow/commit/0e18bb836c96d4a7166182ed81ad6ac1169a4382) - **README.md** - [@norberttech](https://github.com/norberttech)
 - [716443](https://github.com/flow-php/flow/commit/716443664886ffe8c9f40e168c22b17970afc4d6) - **dependencies** - [@norberttech](https://github.com/norberttech)
 - [c7e512](https://github.com/flow-php/flow/commit/c7e5123eef14293c7e7c197a6de2f96c1edb4417) - **README.md** - [@norberttech](https://github.com/norberttech)
