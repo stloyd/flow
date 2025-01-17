@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-16
+## [Unreleased] - 2025-01-17
 
 ### Added
 - [#1384](https://github.com/flow-php/flow/pull/1384) - **elasticsearch examples** - [@norberttech](https://github.com/norberttech)
@@ -55,6 +55,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1377](https://github.com/flow-php/flow/pull/1377) - **Bump phpunit/phpunit from 10.5.40 to 11.5.3** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1370](https://github.com/flow-php/flow/pull/1370) - **Allow to group by more than one column on pivot** - [@norberttech](https://github.com/norberttech)
 - [#1368](https://github.com/flow-php/flow/pull/1368) - **Return integers from Round func when precision is set to 0** - [@norberttech](https://github.com/norberttech)
 - [#1357](https://github.com/flow-php/flow/pull/1357) - **Improved Type template** - [@norberttech](https://github.com/norberttech)
@@ -107,6 +108,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1377](https://github.com/flow-php/flow/pull/1377) - **TestCases new syntax** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1369](https://github.com/flow-php/flow/pull/1369) - **FloatEntry with value 0** - [@norberttech](https://github.com/norberttech)
 - [432fee](https://github.com/flow-php/flow/commit/432fee25b0730116ec064e80e98464a3d0366111) - **filesystem bridges composer names** - [@norberttech](https://github.com/norberttech)
 - [aa57c0](https://github.com/flow-php/flow/commit/aa57c00b07726b809796d888fbb6c8327be6d54b) - **path in manifest** - [@norberttech](https://github.com/norberttech)
