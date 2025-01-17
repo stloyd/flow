@@ -1,6 +1,7 @@
 ## [Unreleased] - 2025-01-17
 
 ### Added
+- [#1387](https://github.com/flow-php/flow/pull/1387) - **Another when function example** - [@norberttech](https://github.com/norberttech)
 - [#1385](https://github.com/flow-php/flow/pull/1385) - **concat_ws (with separator) scalar function** - [@norberttech](https://github.com/norberttech)
 - [#1384](https://github.com/flow-php/flow/pull/1384) - **elasticsearch examples** - [@norberttech](https://github.com/norberttech)
 - [#1380](https://github.com/flow-php/flow/pull/1380) - **execution time to pipeline report** - [@norberttech](https://github.com/norberttech)
@@ -56,6 +57,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1387](https://github.com/flow-php/flow/pull/1387) - **Expanded Contains to support also arrays** - [@norberttech](https://github.com/norberttech)
 - [#1377](https://github.com/flow-php/flow/pull/1377) - **Bump phpunit/phpunit from 10.5.40 to 11.5.3** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1370](https://github.com/flow-php/flow/pull/1370) - **Allow to group by more than one column on pivot** - [@norberttech](https://github.com/norberttech)
 - [#1368](https://github.com/flow-php/flow/pull/1368) - **Return integers from Round func when precision is set to 0** - [@norberttech](https://github.com/norberttech)
