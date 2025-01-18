@@ -1,6 +1,7 @@
-## [Unreleased] - 2025-01-17
+## [Unreleased] - 2025-01-18
 
 ### Added
+- [#1389](https://github.com/flow-php/flow/pull/1389) - **Added String Agg function** - [@norberttech](https://github.com/norberttech)
 - [#1387](https://github.com/flow-php/flow/pull/1387) - **Another when function example** - [@norberttech](https://github.com/norberttech)
 - [#1385](https://github.com/flow-php/flow/pull/1385) - **concat_ws (with separator) scalar function** - [@norberttech](https://github.com/norberttech)
 - [#1384](https://github.com/flow-php/flow/pull/1384) - **elasticsearch examples** - [@norberttech](https://github.com/norberttech)
@@ -111,6 +112,8 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1389](https://github.com/flow-php/flow/pull/1389) - **Links in documentation** - [@norberttech](https://github.com/norberttech)
+- [#1389](https://github.com/flow-php/flow/pull/1389) - **padding in documentation** - [@norberttech](https://github.com/norberttech)
 - [#1377](https://github.com/flow-php/flow/pull/1377) - **TestCases new syntax** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1369](https://github.com/flow-php/flow/pull/1369) - **FloatEntry with value 0** - [@norberttech](https://github.com/norberttech)
 - [432fee](https://github.com/flow-php/flow/commit/432fee25b0730116ec064e80e98464a3d0366111) - **filesystem bridges composer names** - [@norberttech](https://github.com/norberttech)
