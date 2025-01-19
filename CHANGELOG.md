@@ -1,6 +1,7 @@
 ## [Unreleased] - 2025-01-19
 
 ### Added
+- [#1392](https://github.com/flow-php/flow/pull/1392) - **DataFrame::with(Transformer|Transformation) : self** - [@norberttech](https://github.com/norberttech)
 - [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayValues** - [@norberttech](https://github.com/norberttech)
 - [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayKeys** - [@norberttech](https://github.com/norberttech)
 - [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayKeep** - [@norberttech](https://github.com/norberttech)
