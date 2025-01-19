@@ -1,6 +1,10 @@
-## [Unreleased] - 2025-01-18
+## [Unreleased] - 2025-01-19
 
 ### Added
+- [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayValues** - [@norberttech](https://github.com/norberttech)
+- [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayKeys** - [@norberttech](https://github.com/norberttech)
+- [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayKeep** - [@norberttech](https://github.com/norberttech)
+- [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayFilter** - [@norberttech](https://github.com/norberttech)
 - [#1389](https://github.com/flow-php/flow/pull/1389) - **Added String Agg function** - [@norberttech](https://github.com/norberttech)
 - [#1387](https://github.com/flow-php/flow/pull/1387) - **Another when function example** - [@norberttech](https://github.com/norberttech)
 - [#1385](https://github.com/flow-php/flow/pull/1385) - **concat_ws (with separator) scalar function** - [@norberttech](https://github.com/norberttech)
