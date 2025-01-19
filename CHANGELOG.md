@@ -63,6 +63,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1393](https://github.com/flow-php/flow/pull/1393) - **Simplify concat functions internals** - [@stloyd](https://github.com/stloyd)
 - [#1387](https://github.com/flow-php/flow/pull/1387) - **Expanded Contains to support also arrays** - [@norberttech](https://github.com/norberttech)
 - [#1377](https://github.com/flow-php/flow/pull/1377) - **Bump phpunit/phpunit from 10.5.40 to 11.5.3** - [@Bellangelo](https://github.com/Bellangelo)
 - [#1370](https://github.com/flow-php/flow/pull/1370) - **Allow to group by more than one column on pivot** - [@norberttech](https://github.com/norberttech)
