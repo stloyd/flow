@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-19
+## [Unreleased] - 2025-01-20
 
 ### Added
 - [#1392](https://github.com/flow-php/flow/pull/1392) - **DataFrame::with(Transformer|Transformation) : self** - [@norberttech](https://github.com/norberttech)
@@ -118,6 +118,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1395](https://github.com/flow-php/flow/pull/1395) - **Carry metadata and type nullability when creating entries from Schema Definition** - [@norberttech](https://github.com/norberttech)
 - [#1389](https://github.com/flow-php/flow/pull/1389) - **Links in documentation** - [@norberttech](https://github.com/norberttech)
 - [#1389](https://github.com/flow-php/flow/pull/1389) - **padding in documentation** - [@norberttech](https://github.com/norberttech)
 - [#1377](https://github.com/flow-php/flow/pull/1377) - **TestCases new syntax** - [@Bellangelo](https://github.com/Bellangelo)
