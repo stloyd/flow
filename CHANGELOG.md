@@ -1,6 +1,8 @@
-## [Unreleased] - 2025-01-20
+## [Unreleased] - 2025-01-23
 
 ### Added
+- [#1400](https://github.com/flow-php/flow/pull/1400) - **Allow Scalar Functions to defined return Type** - [@norberttech](https://github.com/norberttech)
+- [#1400](https://github.com/flow-php/flow/pull/1400) - **EntryFactory::createAs method to create entry from value and specific expected type** - [@norberttech](https://github.com/norberttech)
 - [#1392](https://github.com/flow-php/flow/pull/1392) - **DataFrame::with(Transformer|Transformation) : self** - [@norberttech](https://github.com/norberttech)
 - [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayValues** - [@norberttech](https://github.com/norberttech)
 - [#1391](https://github.com/flow-php/flow/pull/1391) - **ScalarFunction - arrayKeys** - [@norberttech](https://github.com/norberttech)
@@ -63,6 +65,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1400](https://github.com/flow-php/flow/pull/1400) - **Simplified ArrayExpand and ArrayUnpack interfaces** - [@norberttech](https://github.com/norberttech)
 - [#1393](https://github.com/flow-php/flow/pull/1393) - **Simplify concat functions internals** - [@stloyd](https://github.com/stloyd)
 - [#1387](https://github.com/flow-php/flow/pull/1387) - **Expanded Contains to support also arrays** - [@norberttech](https://github.com/norberttech)
 - [#1377](https://github.com/flow-php/flow/pull/1377) - **Bump phpunit/phpunit from 10.5.40 to 11.5.3** - [@Bellangelo](https://github.com/Bellangelo)
@@ -118,6 +121,7 @@
 - [#1240](https://github.com/flow-php/flow/pull/1240) - **Update Homebrew TAP formula: flow-php to version: 0.10.0** - [@norberttech](https://github.com/norberttech)
 
 ### Fixed
+- [#1400](https://github.com/flow-php/flow/pull/1400) - **Casting non deterministic values like empty array to list/map will create list/map entry** - [@norberttech](https://github.com/norberttech)
 - [#1395](https://github.com/flow-php/flow/pull/1395) - **Carry metadata and type nullability when creating entries from Schema Definition** - [@norberttech](https://github.com/norberttech)
 - [#1389](https://github.com/flow-php/flow/pull/1389) - **Links in documentation** - [@norberttech](https://github.com/norberttech)
 - [#1389](https://github.com/flow-php/flow/pull/1389) - **padding in documentation** - [@norberttech](https://github.com/norberttech)
