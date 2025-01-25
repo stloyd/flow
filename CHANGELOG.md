@@ -65,6 +65,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1404](https://github.com/flow-php/flow/pull/1404) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1402](https://github.com/flow-php/flow/pull/1402) - **NativeEntryFactory renamed to EntryFactory** - [@mleczakm](https://github.com/mleczakm)
 - [#1400](https://github.com/flow-php/flow/pull/1400) - **Simplified ArrayExpand and ArrayUnpack interfaces** - [@norberttech](https://github.com/norberttech)
 - [#1393](https://github.com/flow-php/flow/pull/1393) - **Simplify concat functions internals** - [@stloyd](https://github.com/stloyd)
