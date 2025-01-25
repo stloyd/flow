@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-23
+## [Unreleased] - 2025-01-25
 
 ### Added
 - [#1400](https://github.com/flow-php/flow/pull/1400) - **Allow Scalar Functions to defined return Type** - [@norberttech](https://github.com/norberttech)
@@ -65,6 +65,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1402](https://github.com/flow-php/flow/pull/1402) - **NativeEntryFactory renamed to EntryFactory** - [@mleczakm](https://github.com/mleczakm)
 - [#1400](https://github.com/flow-php/flow/pull/1400) - **Simplified ArrayExpand and ArrayUnpack interfaces** - [@norberttech](https://github.com/norberttech)
 - [#1393](https://github.com/flow-php/flow/pull/1393) - **Simplify concat functions internals** - [@stloyd](https://github.com/stloyd)
 - [#1387](https://github.com/flow-php/flow/pull/1387) - **Expanded Contains to support also arrays** - [@norberttech](https://github.com/norberttech)
@@ -169,6 +170,7 @@
 - [afb55b](https://github.com/flow-php/flow/commit/afb55b8a8d8f7678257b29cbd34737fbbb9f0fce) - **introduction.md** - [@norberttech](https://github.com/norberttech)
 
 ### Removed
+- [#1402](https://github.com/flow-php/flow/pull/1402) - **EntryFactory interface** - [@mleczakm](https://github.com/mleczakm)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **MapKey** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **MapValue** - [@norberttech](https://github.com/norberttech)
 - [#1343](https://github.com/flow-php/flow/pull/1343) - **ListElement** - [@norberttech](https://github.com/norberttech)
