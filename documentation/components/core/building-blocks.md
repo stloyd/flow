@@ -61,7 +61,7 @@ $rows = array_to_rows([
 - [XML](/src/core/etl/src/Flow/ETL/Row/Entry/XMLEntry.php)
 - [XMLElement](/src/core/etl/src/Flow/ETL/Row/Entry/XMLElementEntry.php)
 
-Internally flow is using [EntryFactory](/src/core/etl/src/Flow/ETL/Row/Factory/NativeEntryFactory.php) to create entries. 
+Internally flow is using [EntryFactory](/src/core/etl/src/Flow/ETL/Row/EntryFactory.php) to create entries. 
 It will try to detect and create the most appropriate entry type based on the value.
 
 Flow Entries are based on [PHP Types](/src/core/etl/src/Flow/ETL/PHP/Type/Type.php), which are divided into two groups:
