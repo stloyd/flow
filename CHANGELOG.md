@@ -1,4 +1,4 @@
-## [Unreleased] - 2025-01-25
+## [Unreleased] - 2025-01-26
 
 ### Added
 - [#1400](https://github.com/flow-php/flow/pull/1400) - **Allow Scalar Functions to defined return Type** - [@norberttech](https://github.com/norberttech)
@@ -65,6 +65,7 @@
 - [#1244](https://github.com/flow-php/flow/pull/1244) - **Added CLI command to read schema from a file** - [@norberttech](https://github.com/norberttech)
 
 ### Changed
+- [#1405](https://github.com/flow-php/flow/pull/1405) - **Join columns from a join expression won't trigger the join duplicated columns exception anymore.** - [@norberttech](https://github.com/norberttech)
 - [#1404](https://github.com/flow-php/flow/pull/1404) - **Updated dependencies** - [@norberttech](https://github.com/norberttech)
 - [#1402](https://github.com/flow-php/flow/pull/1402) - **NativeEntryFactory renamed to EntryFactory** - [@mleczakm](https://github.com/mleczakm)
 - [#1400](https://github.com/flow-php/flow/pull/1400) - **Simplified ArrayExpand and ArrayUnpack interfaces** - [@norberttech](https://github.com/norberttech)
